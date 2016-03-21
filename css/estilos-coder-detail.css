@@ -1,0 +1,67 @@
+.container {
+	width: 500px;
+	border: 1px solid gray;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+
+.avatar {
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+}
+
+.avatar img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	margin: 0 auto;
+}
+
+
+.parrafo p {
+	margin: 0 auto;
+	width: 400px;
+}
+
+.parrafo {
+	text-align: center;
+	width: 400px;
+	font-size: 12pt;
+	margin: 0 auto;
+
+}
+
+.habilidades {
+	position: relative;
+	left:30px;
+}
+.habilidades p {
+	color: white;
+	padding: 10px;
+
+}
+
+.habhtml {
+	background-color: gray;
+	width: 400px;
+	height: 40px;
+	margin: 10px;
+}
+.habcss {
+	background-color: gray;
+	width: 300px;
+	height: 40px;
+	margin: 10px;
+}
+.habjs {
+	background-color: gray;
+	width: 100px;
+	height: 40px;
+	margin: 10px;
+}
+
+.portafolio img {
+	margin: 5px;
+}

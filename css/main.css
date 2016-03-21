@@ -1,1 +1,95 @@
-/* Ingresa tu css aqui */
+.container {
+	width: 704px;
+	margin: 0 auto;
+}
+
+.header {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+/*parte botonera*/
+.nav {
+	width: 704px;
+	border: 1px solid black;
+}
+
+li {
+	display: inline;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.botonera a {
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	font-size: 18pt;
+	border-left: 1px solid black;
+	border-right: 1px solid white;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.botonera {
+	text-align: center;
+}
+/*parte parrafo*/
+.sparrafo {
+	width: 60px;
+	border: 2px solid gray;
+}
+
+.parrafo {
+	width: 400px;
+	font-size: 16pt;
+	text-align: center;
+	margin: 0 auto;
+}
+/*comienzo parte codrs*/
+.coders {
+	width: 700px;
+	height: 450px;
+	margin: 0 auto;
+}
+
+.up {
+	display: inline-block;
+	position: static;
+	top:10px;
+	width: 700px;
+	height: 220px;
+}
+
+.down {
+	display: block;
+	position: relative;
+	left:0px;
+	width: 700px;
+	height: 200px;
+}
+.foto {
+	z-index: -1;
+	width: 200px;
+	height: 200px;
+	margin:10px;
+	float:left;
+}
+
+.foto img {	
+	-webkit-filter: brightness(50%);}
+
+.foto img:hover {
+	-webkit-filter: brightness(100%);
+}
+
+.nombres {
+	color: white;
+	z-index: 2;
+	position: relative;
+	left:65px;
+	bottom: 45px;
+}
+
+.nombres a {
+	text-decoration: none;
+}
