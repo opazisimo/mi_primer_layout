@@ -50,6 +50,7 @@
 	text-align: center;
 	margin: 0 auto;
 }
+
 /*comienzo parte codrs*/
 .nc {
 	width:60px;
@@ -102,4 +103,24 @@
 
 .nombres a {
 	text-decoration: none;
+}
+
+
+.flying img {
+	width: 200px;
+	height: 200px;
+}
+
+.flying {
+	position: relative;
+	bottom: 1200px;
+	z-index: 3;
+	animation-duration: 6s;
+ 	animation-name: flying;
+ 	animation-iteration-count: infinite;
+}
+
+@keyframes flying {
+    from {bottom: 1400px; left:300px;}
+    to {bottom:1400px; left: -1200px;}
 }
