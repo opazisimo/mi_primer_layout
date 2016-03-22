@@ -8,23 +8,28 @@
 	margin-bottom: 50px;
 }
 /*parte botonera*/
-.nav {
+.navi {
 	width: 704px;
-	border: 1px solid black;
-}
-
-li {
 	display: inline;
 	margin: 0 auto;
 	text-align: center;
+	border-left: 1px solid black;
 }
+
+#navi {
+	width: 704px;
+	display: inline;
+	margin: 0 auto;
+	text-align: center;
+
+}
+
 
 .botonera a {
 	color: black;
 	text-align: center;
 	text-decoration: none;
 	font-size: 18pt;
-	border-left: 1px solid black;
 	border-right: 1px solid white;
 	padding-left: 20px;
 	padding-right: 20px;
