@@ -51,6 +51,11 @@
 	margin: 0 auto;
 }
 /*comienzo parte codrs*/
+.nc {
+	width:60px;
+	border: 2px solid black;
+	float: left;
+}
 .coders {
 	width: 700px;
 	height: 450px;
